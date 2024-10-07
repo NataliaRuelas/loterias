@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CAMARON</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('img/fondo4.jpg');
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: black;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: indianred;
+            margin-top: 20px;
+            font-family: verdana, sans-serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);         
+        }
+
+        img {
+            width: 200px;
+            height: 300px;
+            margin-top: 20px;
+            border-radius: 1em;
+            box-shadow: 10px 10px 15px indianred; 
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05); 
+            box-shadow: 10px 10px 15px indianred;
+        }
+
+        .description {
+            margin: 20px auto;
+            width: 60%;
+            font-size: 1.2em;
+            line-height: 1.6; 
+            color: #333;
+        }
+
+        .description span {
+            display: block;
+            margin: 10px 0;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: -10px;
+            padding: 10px 20px;
+            background-color: orangered;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: darkred;
+            transform: scale(1.05); 
+        }
+    </style>
+</head>
+<body>
+    <h1>EL CAMARON</h1>
+
+    <img src="img/camaron.jpg" alt="El camaron">
+
+    <div class="description">
+        <span><i>"Camarón que se duerme, se lo lleva la corriente."</i></span>
+        <span>In the Mexican lottery, "El Camarón" symbolizes abundance, wealth and prosperity, especially in the context of gastronomy and everyday life. This card often evokes the idea of ​​enjoying life's pleasures and celebrating the rewards of good work and effort.</span>
+    </div>
+    <a href="index.html" class="back-button">REGRESAR</a>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PAJARO</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('img/fondo4.jpg'); 
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: black;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: lightskyblue;
+            margin-top: 20px;
+            font-family: verdana, sans-serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+        }
+
+        img {
+            width: 200px;
+            height: 300px;
+            margin-top: 20px;
+            border-radius: 1em;
+            box-shadow: 10px 10px 15px lightskyblue;
+            transition: transform 0.3s ease, box-shadow 0.3s ease; 
+        }
+
+       
+        img:hover {
+            transform: scale(1.05); 
+             box-shadow: 10px 10px 15px lightskyblue;
+        }
+
+        .description {
+            margin: 20px auto;
+            width: 60%;
+            font-size: 1.2em;
+            line-height: 1.6; 
+            color: #333;
+        }
+
+        .description span {
+            display: block;
+            margin: 10px 0;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: -10px;
+            padding: 10px 20px;
+            background-color: orangered;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease; 
+        }
+
+        .back-button:hover {
+            background-color: darkred;
+            transform: scale(1.05); 
+        }
+    </style>
+</head>
+<body>
+    <h1>EL PAJARO</h1>
+
+    <img src="img/pajaro.jpg" alt="El Pájaro">
+
+    <div class="description">
+        <span><i>"Tú me traes a puros brincos, como pájaro en la rama."</i></span>
+        <span>In the Mexican lottery, "El Pájaro" is one of the most colorful and symbolic cards. Traditionally, the bird represents freedom, lightness, and in some cases, good news or messages to come, due to its ability to fly and move easily.</span>
+    </div>
+    <a href="index.html" class="back-button">REGRESAR</a>
+</body>
+</html>

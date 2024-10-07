@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MANO</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('img/fondo4.jpg');
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: black;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: lightblue;
+            margin-top: 20px;
+            font-family: verdana, sans-serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);         
+        }
+
+        img {
+            width: 200px;
+            height: 300px;
+            margin-top: 20px;
+            border-radius: 1em;
+            box-shadow: 10px 10px 15px lightblue; 
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05); 
+            box-shadow: 10px 10px 15px lightblue;
+        }
+
+        .description {
+            margin: 20px auto;
+            width: 60%;
+            font-size: 1.2em;
+            line-height: 1.6; 
+            color: #333;
+        }
+
+        .description span {
+            display: block;
+            margin: 10px 0;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: -10px;
+            padding: 10px 20px;
+            background-color: orangered;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: darkred;
+            transform: scale(1.05); 
+        }
+    </style>
+</head>
+<body>
+    <h1>LA MANO</h1>
+
+    <img src="img/mano.jpg" alt="La mano">
+
+    <div class="description">
+        <span><i>"El que no trabaja, no come."</i></span>
+        <span>In the Mexican lottery, "La Mano" is a card that symbolizes work, action and effort. It can also represent help or solidarity, since hands are essential for carrying out tasks and offering support to others.</span>
+    </div>
+    <a href="index.html" class="back-button">REGRESAR</a>
+</body>
+</html>
